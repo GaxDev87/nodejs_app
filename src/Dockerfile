@@ -1,4 +1,4 @@
-#Get node image fro dockerhub
+#Get node starter image from dockerhub
 FROM node:12-alpine
 WORKDIR /usr/src/app
 COPY package*.json ./
